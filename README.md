@@ -1,4 +1,4 @@
-![ClarityFi Logo](clarity_fi_logo.jpg)
+<img src="clarity_fi_logo.jpg" alt="ClarityFi Logo" width="200"/>
 
 # ClarityFi
 
