@@ -25,6 +25,29 @@ def mintTokens(user_address, token_quantity):
 
     return response.status == 'success'
 
+@app.route('/api/user_balance', methods = ['GET'])
+def userBalance():
+    req = request.get_json()
+
+    client = xrpl.clients.JsonRpcClient(config['testnet_url'])    
+
+    response = client.request(xrpl.models.requests.AccountLines(
+        account=req['address'],
+        ledger_index="validated",
+    ))
+
+    lines = response.result['lines']
+
+    if not lines:
+        return 'no balance', 400
+
+    bals = [x for x in lines if x['account'] == config['issuer_address'] and x['currency'] == config['currency_code']]
+
+    if not bals:
+        return 'no balance', 400
+    
+    return bals[0]['balance']
+
 @app.route('/api/submit_quiz', methods = ['POST'])
 def submitQuiz():
     req = request.get_json()
@@ -65,7 +88,16 @@ def submitQuiz():
     return '', 200
 
 '''
+Submit Quiz:
+
 curl  -X POST -H "Content-Type: application/json" -d \
   '{"address": "rp37MDwmN5BR5bDtt6r8L8NbKaZ3YLMEFQ", "quiz": '2', "answers": ["b", "b", "d", "c"] }' \
   http://localhost:8888/api/submit_quiz
+
+Balance:
+
+curl  -X POST -H "Content-Type: application/json" -d \
+  '{"address": "rp37MDwmN5BR5bDtt6r8L8NbKaZ3YLMEFQ"}' \
+  http://localhost:8888/api/user_balance
 '''
+
