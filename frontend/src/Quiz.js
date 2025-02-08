@@ -17,7 +17,7 @@ function Quiz({ quizzes, videoId }) {
   // Submit answers to the API
   const handleSubmit = async () => {
     try {
-      const response = await fetch("http://localhost:8888/submit-quiz", {
+      const response = await fetch("http://localhost:8888/api/submit_quiz", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
