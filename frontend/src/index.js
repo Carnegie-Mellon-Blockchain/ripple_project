@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { WalletProvider } from './context/WalletContext'; // Import WalletProvider
+import mixpanel from 'mixpanel-browser';
+
+mixpanel.init('845026e48302aa9a9690abb5b8b29b57');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

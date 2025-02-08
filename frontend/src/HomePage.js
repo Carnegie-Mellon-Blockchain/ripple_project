@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Header from './Header';
+import Footer from './Footer'; // Import Footer component
 import WalletConnect from './WalletConnect'; // Import WalletConnect component
 import AccountInformation from './AccountInformation'; // Import AccountInformation if needed
 import Interactions from './Interactions'; // Import Interactions if needed
@@ -51,6 +52,9 @@ function HomePage() {
           <Interactions />
         </>
       )}
+
+      {/* Footer Section */}
+      <Footer />
     </div>
   );
 }
