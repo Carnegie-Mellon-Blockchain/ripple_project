@@ -1,0 +1,776 @@
+[
+    {
+        "id": "SSo_EIwHSd4",
+        "title": "How does a blockchain work - Simply Explained",
+        "link": "https://www.youtube.com/watch?v=SSo_EIwHSd4",
+        "duration": 359,
+        "description": "What is a blockchain and how do they work? I'll explain why blockchains are so special in simple and plain English!\n\n\ud83d\udc8c  Sign up for Simply Explained Newsletter:\nhttps://newsletter.simplyexplained.com\nMonthly newsletter with cool stuff I found on the internet (related to science, technology, biology, and other nerdy things)! No spam. Ever. Promise!\n\n\ud83c\udf0d Follow me\nTwitter: https://twitter.com/Savjee\nInstagram: https://www.instagram.com/simplyexplained_com/\nTikTok: https://www.tiktok.com/@simplyexplained_com\nWebsite: https://simplyexplained.com\n\n\ud83d\udcb0 Get $10 of free Bitcoin:\nUse my Coinbase affiliate link, and we'll both get $10 of free Bitcoin when you deposit $100:\nhttps://coinbase.com/join/decuyp_9\n\n\ud83d\udcda Sources can be found on my website:\nhttps://www.savjee.be/videos/simply-explained/how-does-a-blockchain-work/\n\n\u2764\ufe0f Become a Simply Explained member: https://www.youtube.com/channel/UCnxrdFPXJMeHru_b4Q_vTPQ/join\n\n#blockchain #simplyexplained #cryptocurrency #bitcoin",
+        "quiz": [
+            {
+                "question": "What was the original purpose of blockchains as described by the group of researchers in 1991?",
+                "options": [
+                    "To create a secure digital currency",
+                    "To timestamp digital documents to prevent backdating and tampering",
+                    "To establish a central authority for verifying transactions",
+                    "To track the location of physical assets"
+                ]
+            },
+            {
+                "question": "Who adapted the blockchain technology in 2009 to create Bitcoin?",
+                "options": [
+                    "Group of researchers in 1991",
+                    "Satoshi Nakamoto",
+                    "Peer-to-peer network participants",
+                    "Government regulatory agencies"
+                ]
+            },
+            {
+                "question": "What key information is stored inside a block in the Bitcoin blockchain?",
+                "options": [
+                    "Personal identification details",
+                    "Transaction details like sender, receiver, and coins amount",
+                    "Historical weather data",
+                    "Medical records"
+                ]
+            },
+            {
+                "question": "What is compared to a fingerprint in the context of a block?",
+                "options": [
+                    "Sender\u2019s identity",
+                    "Receiver\u2019s identity",
+                    "Block hash",
+                    "Government authority"
+                ]
+            },
+            {
+                "question": "What is the mechanism used in blockchains to slow down the creation of new blocks and prevent tampering?",
+                "options": [
+                    "Public ledger",
+                    "Peer-to-peer network",
+                    "Proof-of-work",
+                    "Smart contracts"
+                ]
+            },
+            {
+                "question": "How much computing time approximately does it take to calculate the required proof-of-work and add a new block in the Bitcoin blockchain?",
+                "options": [
+                    "1 minute",
+                    "10 minutes",
+                    "1 hour",
+                    "1 day"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3xGLc-zz9cA",
+        "title": "What is BLOCKCHAIN? The best explanation of blockchain technology",
+        "link": "https://www.youtube.com/watch?v=3xGLc-zz9cA",
+        "duration": 386,
+        "description": "Blockchain explained in plain English\n\nUnderstanding how blockchain works and identifying myths about its powers are the first steps to developing blockchain technologies.\n\nBlockchain is an algorithm and distributed data structure for managing electronic cash without a central administrator among people who know nothing about one another. Originally designed for the crypto-currency Bitcoin, the blockchain architecture was driven by a radical rejection of at (government-guaranteed) money and bank-controlled payments.\n\nBlockchain is a special instance of Distributed Ledger Technologies (DLTs), almost all of which have emerged in Bitcoin's wake.\n\nHOW DOES BLOCKCHAIN WORK?\n\nBlockchain is a Distributed Ledger Technology (DLT) that was invented to support the Bitcoin cryptocurrency. Bitcoin was motivated by an extreme rejection of government-guaranteed money and bank-controlled payments. The developer of Bitcoin, Satoshi Nakamoto envisioned people spending money without friction, intermediaries, regulation or the need to know or trust other parties.\n\nTechnically, the original blockchain is separable from Bitcoin, but this report will show that the blockchain design is so specific to Bitcoin that it's not a good fit for much else.\n\nThe central problem in electronic cash is Double Spend. Because pure electronic money is just data, nothing stops a currency holder from trying to spend it twice. Blockchain solves the Double Spend problem without a digital reserve fund or similar form of umpire.\n\nBlockchain monitors and verifies Bitcoin transactions by calling upon a decentralized network of volunteer-run nodes to, in effect, vote on the order in which transactions occur. The network's algorithm ensures that each transaction is unique.\n\nVideo created by the Centre of International Governance Innovation.",
+        "quiz": [
+            {
+                "question": "What was the original purpose of blockchain technology as described in the video?",
+                "options": [
+                    "To timestamp digital documents",
+                    "To create digital currencies",
+                    "To store medical records",
+                    "To create smart contracts"
+                ]
+            },
+            {
+                "question": "Who adapted the original blockchain technology in 2009 to create the digital cryptocurrency Bitcoin?",
+                "options": [
+                    "Satoshi Nakamoto",
+                    "A group of researchers",
+                    "Government agencies",
+                    "Financial institutions"
+                ]
+            },
+            {
+                "question": "What specific data is stored inside a block in the Bitcoin blockchain according to the video?",
+                "options": [
+                    "Sender, receiver, and amount of coins",
+                    "Medical records",
+                    "Proof-of-work calculations",
+                    "Smart contract details"
+                ]
+            },
+            {
+                "question": "What is a hash in the context of blockchain technology?",
+                "options": [
+                    "A fingerprint that identifies a block",
+                    "A type of digital currency",
+                    "An intermediary node",
+                    "A proof-of-work mechanism"
+                ]
+            },
+            {
+                "question": "What mechanism in blockchain technology slows down the creation of new blocks to prevent tampering?",
+                "options": [
+                    "Proof-of-work",
+                    "Peer-to-peer network",
+                    "Smart contracts",
+                    "Hashing algorithm"
+                ]
+            },
+            {
+                "question": "How do nodes in a blockchain network reach consensus about the validity of blocks?",
+                "options": [
+                    "By verifying each block individually",
+                    "By majority voting",
+                    "By central authority decision",
+                    "By random selection"
+                ]
+            },
+            {
+                "question": "What is mentioned as one of the recent developments in blockchain technology in the video?",
+                "options": [
+                    "Creation of smart contracts",
+                    "Peer-to-peer lending",
+                    "Blockchain-based gaming",
+                    "Development of artificial intelligence"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ReRJzrCwsaw",
+        "title": "What is XRP? Ripple Explained with Animations",
+        "link": "https://www.youtube.com/watch?v=ReRJzrCwsaw",
+        "duration": 160,
+        "description": "Ripple and XRP have been a household name in the crypto world for years, but what is it and how does it actually work? In this video, Newsbit explains what Ripple and XRP are in 2 minutes.\n\n#Newsbit #cryptonews #xrp #explained #ripple\n\nSubscribe to Newsbit https://goo.gl/JwfYz8\n\nFollow Newsbit on social media:\nWebsite: https://newsbit.nl/\nFacebook: https://www.facebook.com/newsbitneder...\nInstagram: https://www.instagram.com/newsbitnl/\nTwitter: https://twitter.com/NewsbitNL\nTelegram: https://t.me/newsbit_crypto\n\nNewsbit is the number 1 cryptocurrency news website in the Netherlands. The YouTube channel covers everything related to crypto and Bitcoin. With this we provide you with the latest crypto news, we give you price analyzes and we help you understand the crypto world. Whether you are a beginner or an expert, we are here to provide you with crypto-related content.\n\nDisclaimer: You can also lose money by trading. Therefore, only trade with money that you can afford to lose.",
+        "quiz": [
+            {
+                "question": "What was the original purpose of a blockchain as described by a group of researchers in 1991?",
+                "options": [
+                    "To create the digital cryptocurrency Bitcoin",
+                    "To timestamp digital documents",
+                    "To store medical records",
+                    "To collect taxes"
+                ]
+            },
+            {
+                "question": "What property of a blockchain makes it difficult to change data once it has been recorded?",
+                "options": [
+                    "Open accessibility to anyone",
+                    "Use of distributed ledger",
+                    "Hashing mechanism",
+                    "Proof-of-work mechanism"
+                ]
+            },
+            {
+                "question": "How does the proof-of-work mechanism contribute to the security of a blockchain?",
+                "options": [
+                    "Slows down the creation of new blocks",
+                    "Allows easy tampering with blocks",
+                    "Provides open accessibility to the blockchain",
+                    "Stores medical records"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "17QRFlml4pA",
+        "title": "What is DeFi? (Decentralized Finance Animated)",
+        "link": "https://www.youtube.com/watch?v=17QRFlml4pA&t=1s",
+        "duration": 985,
+        "description": "You might be searching the web trying to figure out \"What is Defi?\". Well, in this video we cover exactly what defi (or decentralized finance) is and cover 5 main pillars holding it up, including examples to help illustrate our points. \n\n1) Stablecoins\n2) Lending and Borrowing\n3) Decentralized Exchanges\n4) Insurance\n5) Margin Trading\n\n\nJoin WhiteboardCrypto Club to claim your $20 ETH bonus, unique NFT, and have immediate access to our private community, private videos, and my portfolio: https://whiteboardcrypto.com/whiteboardcrypto-club/\n\nOr join our newsletter for free to get access to our discord and free DeFi Guide: https://whiteboardcrypto.com\n\nSupport the channel by checking these crypto/DeFi tools out:\nUnstoppable Domains - all-in-one crypto wallet: https://unstoppabledomains.com/?ref=cba817a046e94e7\nBrave - privacy-based web browser that pays you crypto: https://brave.com/YSU799\n\nMy favorite crypto exchanges\nBest for Beginners\nCoinbase: https://coinbase-consumer.sjv.io/WhiteboardCrypto\n\nBest for Traders\nBinance (US): https://accounts.binance.us/en/register?ref=53943019\nBinance (non US): https://accounts.binance.com/en/register?ref=RDBHDMLN\n\nLowest Fees\nFTX (US): https://ftx.us/home/#a=whiteboardcrypto\nFTX (non US): https://ftx.com/referrals#a=74365468\n\nMost Coins and not KYC\nKucoin: https://www.kucoin.com/r/r3LFPSY\n\nUseful Trading Bots\nPionex: https://www.pionex.com/en-US/sign/ref/yzFsnjAL\n\nExplore More Whiteboard Crypto:\nTwitter: @whiteboardCryp1\nFacebook: @whiteboardcrypto\nInstagram: @whiteboardcryptoteam",
+        "quiz": [
+            {
+                "question": "When was the technique of blockchain originally described?",
+                "options": [
+                    "1991",
+                    "2009",
+                    "2010",
+                    "2015"
+                ]
+            },
+            {
+                "question": "Who adapted the blockchain technique to create Bitcoin in 2009?",
+                "options": [
+                    "Satoshi Nakamoto",
+                    "Vitalik Buterin",
+                    "Charlie Lee",
+                    "Roger Ver"
+                ]
+            },
+            {
+                "question": "What is a blockchain according to the video?",
+                "options": [
+                    "A chain of blocks that contains information",
+                    "A decentralized exchange",
+                    "A lending platform",
+                    "A stablecoin"
+                ]
+            },
+            {
+                "question": "What property of a blockchain makes it difficult to change recorded data?",
+                "options": [
+                    "Distributed ledger",
+                    "Consensus mechanism",
+                    "Proof-of-work",
+                    "Immutability"
+                ]
+            },
+            {
+                "question": "What does each block in a blockchain contain?",
+                "options": [
+                    "Data, block hash, previous block hash",
+                    "Only the block hash",
+                    "Only the data",
+                    "Only the previous block hash"
+                ]
+            },
+            {
+                "question": "What does a hash in a blockchain represent?",
+                "options": [
+                    "A fingerprint identifying a block and its contents",
+                    "A transaction amount",
+                    "A public key",
+                    "A private key"
+                ]
+            },
+            {
+                "question": "What is the purpose of the hash of the previous block in a blockchain?",
+                "options": [
+                    "Creates a chain of blocks for security",
+                    "Identifies the block",
+                    "Contains transaction details",
+                    "Calculates proof-of-work"
+                ]
+            },
+            {
+                "question": "What happens if you tamper with a block in a blockchain?",
+                "options": [
+                    "All following blocks become invalid",
+                    "Only that block becomes invalid",
+                    "The hash remains unchanged",
+                    "Proof-of-work slows down"
+                ]
+            },
+            {
+                "question": "What mechanism slows down the creation of new blocks in a blockchain?",
+                "options": [
+                    "Proof-of-work",
+                    "Consensus algorithm",
+                    "Smart contracts",
+                    "Distributed ledger"
+                ]
+            },
+            {
+                "question": "In Bitcoins case, how long does it take to calculate the required proof-of-work for adding a new block?",
+                "options": [
+                    "About 10 minutes",
+                    "1 hour",
+                    "24 hours",
+                    "1 week"
+                ]
+            },
+            {
+                "question": "What secures a blockchain by utilizing creative hashing and proof-of-work mechanism?",
+                "options": [
+                    "Security",
+                    "Immutability",
+                    "Consensus",
+                    "Decentralization"
+                ]
+            },
+            {
+                "question": "How do blockchains secure themselves in terms of management?",
+                "options": [
+                    "By being distributed",
+                    "Using a central entity",
+                    "By being anonymous",
+                    "By being centralized"
+                ]
+            },
+            {
+                "question": "What happens when someone joins a blockchain network?",
+                "options": [
+                    "Gets a full copy of the blockchain",
+                    "Loses previous data",
+                    "Becomes a miner",
+                    "Receives free coins"
+                ]
+            },
+            {
+                "question": "Who creates consensus in a blockchain network?",
+                "options": [
+                    "All nodes",
+                    "Central entity",
+                    "Miners",
+                    "Developers"
+                ]
+            },
+            {
+                "question": "What is the requirement to successfully tamper with a blockchain according to the video?",
+                "options": [
+                    "Control more than 50% of the network",
+                    "Recalculate proof-of-work for each block",
+                    "Tamper with all blocks on the chain",
+                    "All of the above"
+                ]
+            },
+            {
+                "question": "What recent development in blockchain technology is mentioned in the video?",
+                "options": [
+                    "Smart contracts",
+                    "Proof-of-stake",
+                    "Mining pools",
+                    "Cross-chain interoperability"
+                ]
+            },
+            {
+                "question": "How does a smart contract function according to the video?",
+                "options": [
+                    "Automatically exchange coins based on conditions",
+                    "Secure private keys",
+                    "Perform proof-of-work calculations",
+                    "Act as a consensus mechanism"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ll5c4pLMDdA",
+        "title": "What is Tokenomics? [ Tokenomics Explained With Animations ]",
+        "link": "https://www.youtube.com/watch?v=ll5c4pLMDdA",
+        "duration": 163,
+        "description": "What Is Tokenomics?\n\nTokenomics dictate the supply and demand characteristics of a cryptocurrency.\n\nBut before diving into tokenomics, let's take a look at what a token means. \n\nWhat Is a Token?\n\nA token is a digital unit of a cryptocurrency that is either used as a specific asset, or represents a particular use on the blockchain. Tokens can have multiple use cases, but the most common ones are as security, utility, or governance tokens.\n\nCryptocurrencies and tokens built on blockchains have pre-set, algorithmically created, issuance schedules. This means that we can predict with quite some accuracy how many coins will have been created by a certain day and time. \n\nThough it is possible for most cryptoassets to have this issuance schedule altered, it would require quite a bit of effort. Thus, changing this schedule is very difficult. \n\nThis provides some predictability and security for token holders, in a way that is much more predictable and stable than how governments create and issue their currencies.\n\nWhy Is Tokenomics Important When Investing in Cryptocurrency?\n\nUnderstanding the factors that will impact either supply or demand are of vital importance to both speculators and investors. \n\nPerhaps the most important factor is to understand how the digital currency will be used. \n\nIs there a clear link between the platform or service being built, and the asset? \n\nIf so, there is a strong chance that a growing service will require purchases that increase usage and demand, thus increasing the price. If this is not the case, what can the token be used for?\n\nOther important questions include: \n\nHow many coins or tokens currently exist? \nHow many will exist in the future and when will they be created? \nWho owns the coins? Are there some set aside to be released in the future to developers? \nHave a large number of coins been lost, burned, deleted or are somehow unusable?\n\nTokenomics is also helpful as guidance to understand how much an asset might be worth in the future. \n\nFor example, many people new to crypto might think that any coin could become as valuable as Bitcoin, even though tokenomics may prove this to be impossible. \n\nAs an example, let\u2019s look at two coins, Bitcoin Cash and Tron. Bitcoin Cash has the same total supply as Bitcoin, so thinking that it may become as valuable as the world\u2019s biggest cryptocurrency \u2014 might be possible. \n\nHowever, with more than 100 billion Tron already created, in order to break a few thousand dollars per-coin, Tron would need to become the most valuable business in the history of the world. The odds of that happening may be a bit far off.\n\nWhile these questions may seem to require complex answers, they provide an extra way to view cryptoassets and to help understand whether one asset is more likely to have a great value and future, than another.\n\n\ud83d\udd14 From crypto news, to market moves, and to educational how to videos. If you want something more than just hype and to actually learn about crypto, make sure to hit the subscribe button right now and turn on notifications to not miss out on new videos! \n\n\ud83d\udd35 Coin Market Cap is the world's most-referenced price-tracking website for cryptoassets in the rapidly growing cryptocurrency space. Its mission is to make crypto accessible all around the world through data and content.\n\n\ud83d\udcf2 Download our app!\nIOS : https://apple.co/3dOkokH\nAndroid : https://bit.ly/3gHyJkS\n \n\ud83e\udd1d Join CoinMarketCap!\nhttps://bit.ly/3dVaEoS\n \nFollow CoinMarketCap on social!\nhttps://twitter.com/CoinMarketCap\nhttps://www.facebook.com/CoinMarketCap\nhttps://www.instagram.com/CoinMarketCap\nhttps://reddit.com/r/CoinMarketCap\nhttps://t.me/CoinMarketCap\n \n\ud83d\udce9 Subscribe to our Newsletter!\nhttps://coinmarketcap.com/newsletter/",
+        "quiz": [
+            {
+                "question": "What is a token in the context of cryptocurrency?",
+                "options": [
+                    "A physical unit of currency",
+                    "A digital unit of a cryptocurrency used for specific purposes on the blockchain",
+                    "A trading platform for cryptocurrencies",
+                    "A form of traditional investment"
+                ]
+            },
+            {
+                "question": "Why is understanding tokenomics important when investing in cryptocurrency?",
+                "options": [
+                    "To predict the weather accurately",
+                    "To understand the supply and demand factors that impact the value of a cryptocurrency",
+                    "To learn a new programming language",
+                    "To become a professional athlete"
+                ]
+            },
+            {
+                "question": "How does tokenomics provide predictability and security for token holders?",
+                "options": [
+                    "By allowing governments to control the issuance schedules",
+                    "By creating a volatile market for cryptocurrencies",
+                    "By making the issuance schedule difficult to alter, thus providing stability",
+                    "By guaranteeing a fixed price for all cryptocurrencies"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "SQyg9pyJ1Ac",
+        "title": "What is a Cryptocurrency Wallet? (3 Types + Key Examples)",
+        "link": "https://www.youtube.com/watch?v=SQyg9pyJ1Ac",
+        "duration": 337,
+        "description": "You might be wondering what a cryptocurrency wallet is, and how to properly use on. In this video, we will be explaining exactly how a cryptocurrency wallet works, along with the 3 main types of them: software, hardware, and paper.\n\nRead the updated article here:\nhttps://whiteboardcrypto.com/what-is-a-cryptocurrency-wallet/\n\nJoin our exclusive discord community:\nhttps://discord.gg/D7hGbB5AuH\n\nExplore More Whiteboard Crypto:\nFacebook: @whiteboardcrypto\nInstagram: @whitreboardcryptoteam\nWebsite: www.whiteboardcrypto.com",
+        "quiz": [
+            {
+                "question": "What is tokenomics?",
+                "options": [
+                    "The study of how tokens are issued in an ICO",
+                    "The characteristics of the supply and demand of a cryptocurrency",
+                    "The process of securing tokens in a wallet",
+                    "The analysis of token sale prices"
+                ]
+            },
+            {
+                "question": "What is a token in the context of cryptocurrency?",
+                "options": [
+                    "A unit of digital currency used for transactions",
+                    "A physical object representing ownership of cryptocurrency",
+                    "A blockchain transaction record",
+                    "A smart contract"
+                ]
+            },
+            {
+                "question": "What are the most common use cases for tokens?",
+                "options": [
+                    "Mining, staking, and trading",
+                    "NFT creation and distribution",
+                    "Security, utility, or governance",
+                    "Decentralized finance applications"
+                ]
+            },
+            {
+                "question": "Why is tokenomics important when investing in cryptocurrency?",
+                "options": [
+                    "To predict future market prices",
+                    "To understand the factors influencing supply and demand",
+                    "To secure tokens in a hardware wallet",
+                    "To identify potential security vulnerabilities"
+                ]
+            },
+            {
+                "question": "How can the link between a platform or service and a token affect its price?",
+                "options": [
+                    "It has no impact on the token price",
+                    "It can potentially increase the token price by driving demand",
+                    "It can decrease the token price due to oversupply",
+                    "It is determined randomly"
+                ]
+            },
+            {
+                "question": "What is an example of how tokenomics can influence the potential value of a cryptocurrency?",
+                "options": [
+                    "The total number of tokens being equal to Bitcoin could lead to comparable value",
+                    "The popularity of the coin determines its future value",
+                    "The amount of tokens burned increases the value",
+                    "Random market fluctuations determine the value"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "vTEjf7MYAWA",
+        "title": "What Is Ripple XRP ? The Basics - For Beginners",
+        "link": "https://www.youtube.com/watch?v=vTEjf7MYAWA",
+        "duration": 499,
+        "description": "Open An Account With Binance!\n\nhttps://www.binance.com/?ref=22170588\n\n-----------------------------------------------------------------------------\nMine Bitcoin On Your Computer For Free:\n\nhttps://honeyminer.com/referred/58xpg\n\n\n------------------------------------------------------------------------------\nSign up and buy on Coinbase to receive $10 for Free!\n\nhttps://www.coinbase.com/join/529b4566229f2d548e000092\n\n\n------------------------------------------------------------------------------\n\nBitcoin Donations Address:\n1BYhrLpntMYW97sd8K6fquTcr5MYwPAe2y\n\nRipple (XRP) Donation Address:\nrLDZeEw8nmsDjLQtACp53Bm9QDcB5bT3S6\n\nEthereum Donation Address:\n0x0e5f5CEFaA9A0713AB6D8F79E6679E22d86C21f6\n\nLitecoin Donation Address:\nLh7dbMcXHTxaEAKg4tigKxoXCikceU4ZnM\n\nBAT Donation Address:\n0x0e5f5CEFaA9A0713AB6D8F79E6679E22d86C21f6\n\nOmiseGo Donation Address:\n0x0e5f5CEFaA9A0713AB6D8F79E6679E22d86C21f6\n\n--------------------------------------------------------------------------------\n\nFollow me On Facebook ! \nhttps://www.facebook.com/TheModernInvestor\n\n\nhttps://www.youtube.com/channel/UC-5HLi3buMzdxjdTdic3Aig\n\n---------------------------------------------------------------------------------\n\nPhoto Credit To:\nhttps://www.valuewalk.com/wp-content/uploads/2018/01/Ripple.png",
+        "quiz": [
+            {
+                "question": "What does tokenomics dictate about a cryptocurrency?",
+                "options": [
+                    "Transaction history",
+                    "Supply and demand characteristics",
+                    "Advertising strategy",
+                    "User interface design"
+                ]
+            },
+            {
+                "question": "What is a token in the context of cryptocurrencies?",
+                "options": [
+                    "Physical currency",
+                    "Stock in a company",
+                    "Digital unit of a cryptocurrency",
+                    "Real estate asset"
+                ]
+            },
+            {
+                "question": "What are the most common use cases for tokens on blockchains?",
+                "options": [
+                    "Staking and farming",
+                    "Mining and trading",
+                    "Security, utility, and governance",
+                    "Lending and borrowing"
+                ]
+            },
+            {
+                "question": "Why is it difficult to alter the issuance schedule of most crypto assets?",
+                "options": [
+                    "Due to regulatory restrictions",
+                    "Requires a lot of energy consumption",
+                    "Must reach a global consensus",
+                    "Involves significant effort"
+                ]
+            },
+            {
+                "question": "What does tokenomics provide for token holders?",
+                "options": [
+                    "Unpredictability",
+                    "Stability and predictability",
+                    "Control over government policies",
+                    "Instant wealth growth"
+                ]
+            },
+            {
+                "question": "What factor plays a vital role for both speculators and investors in cryptocurrency?",
+                "options": [
+                    "Government policies",
+                    "Price of gold",
+                    "Supply chain management",
+                    "Understanding supply and demand impacts"
+                ]
+            },
+            {
+                "question": "Why is understanding how a digital currency will be used important in tokenomics?",
+                "options": [
+                    "It determines the token price",
+                    "It creates a unique wallet address",
+                    "It predicts regulatory changes",
+                    "It impacts usage and demand driving the price"
+                ]
+            },
+            {
+                "question": "What does tokenomics help to understand about a cryptocurrency asset?",
+                "options": [
+                    "The speed of transactions",
+                    "Market volatility",
+                    "Future value potential",
+                    "Historical price data"
+                ]
+            },
+            {
+                "question": "Which comparison is made between Bitcoin Cash and Tron in the context of tokenomics?",
+                "options": [
+                    "Scalability",
+                    "Total supply",
+                    "Market capitalization",
+                    "Proof of stake consensus"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "t1brCcgi174",
+        "title": "THE BITCOIN STANDARD SUMMARY | Bitcoin Explained",
+        "link": "https://www.youtube.com/watch?v=t1brCcgi174",
+        "duration": 1013,
+        "description": "Full explanation of Bitcoin looking into the history of money and how blockchain works",
+        "quiz": [
+            {
+                "question": "What is a token in the context of cryptocurrency?",
+                "options": [
+                    "A physical representation of a cryptocurrency",
+                    "A digital unit of a cryptocurrency used as a specific asset or for a particular use on the blockchain",
+                    "A type of blockchain technology",
+                    "A form of cryptocurrency mining"
+                ]
+            },
+            {
+                "question": "What are the most common use cases for tokens?",
+                "options": [
+                    "Currency and Privacy tokens",
+                    "Security, Utility, and Governance tokens",
+                    "Mining and Staking tokens",
+                    "Proof of Work and Proof of Stake tokens"
+                ]
+            },
+            {
+                "question": "What provides predictability and security for token holders that is more stable than traditional currencies?",
+                "options": [
+                    "Blockchain technology",
+                    "Crypto exchanges",
+                    "Tokenomics",
+                    "Governments"
+                ]
+            },
+            {
+                "question": "Why is understanding tokenomics important when investing in cryptocurrency?",
+                "options": [
+                    "To predict the future price of Bitcoin",
+                    "To determine mining difficulty",
+                    "To understand factors that impact supply and demand",
+                    "To create new cryptocurrencies"
+                ]
+            },
+            {
+                "question": "What is a key factor that impacts the price of a digital currency according to the video?",
+                "options": [
+                    "The availability of mining hardware",
+                    "The number of exchanges it is listed on",
+                    "The link between the platform or service being built and the asset itself",
+                    "The total number of internet users"
+                ]
+            },
+            {
+                "question": "How can tokenomics provide guidance on the future value of an asset?",
+                "options": [
+                    "By predicting the price of gold",
+                    "By analyzing historical currency values",
+                    "By understanding factors like total supply, distribution, and use cases of a token",
+                    "By tracking the number of crypto wallets created daily"
+                ]
+            },
+            {
+                "question": "What is an example of two coins mentioned in the video with different total supplies? Bitcoin Cash and what other coin?",
+                "options": [
+                    "Ethereum",
+                    "Litecoin",
+                    "Ripple",
+                    "Tron"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "kf28zqP_F2s",
+        "title": "Hot vs Cold Crypto Wallets: What\u2019s The DIFFERENCE??",
+        "link": "https://www.youtube.com/watch?v=kf28zqP_F2s",
+        "duration": 234,
+        "description": "Learn the difference between hot vs cold wallets and how they secure your crypto in this video.\n\nRelated Videos \ud83d\udcfa\nPartial VS Fully On-chain Games Explained! \ud83d\udc49 https://youtu.be/Va8xmOttOus\n\nRead \ud83d\udcd6\nHot Wallet vs. Cold Wallet  \ud83d\udc49 https://www.coingecko.com/learn/hot-wallet-vs-cold-wallet\n\nBrowse Our BEST Videos \ud83d\udd25\nWhat Happens When ALL 21 Million Bitcoin Are Mined? \ud83d\udc49 https://youtu.be/SGnKaWT1lA8\nHow HIGH Can Bitcoin go in 2024? \ud83d\udc49 https://youtu.be/qDDbr_jDfkA\nCoins VS Tokens: What's the Difference? \ud83d\udc49 https://youtu.be/aLh8jlYYvZA\nWhat Is MetaMask? Beginner's MetaMask Tutorial In 2025! \ud83d\udc49 https://youtu.be/-HTubEJ61zU\n\nLinks \ud83d\udd17\nCoinGecko: https://www.coingecko.com/\nGeckoTerminal: https://www.geckoterminal.com/\n\nTimestamps:\n00:00 Intro\n00:07 What is a Wallet?\n00:24 What is a Hot and Cold Wallet?\n01:36 Benefits of a Hot Wallet\n02:01 The Downsides...\n02:27 Benefits of a Cold Wallet\n03:00 The Downsides...\n03:34 Outro\n\nDownload CoinGecko App!\ud83d\udcf1\niOS: https://gcko.io/coingecko-ios\nAndroid: https://gcko.io/coingecko-android\n\nFollow us!\nTwitter: https://twitter.com/coingecko \nInstagram: https://www.instagram.com/coingecko \nTikTok: https://www.tiktok.com/@coingeckotv \nTelegram: https://t.me/coingecko \n\nSubscribe to CoinGecko's Newsletter! \ud83d\udce9\nhttps://newsletter.coingecko.com/landing/subscribe\n_____________________________ \n\n\n#cryptowallets #cryptosecurity #blockchaintechnology #cryptosafety  #cryptotips #cryptotransactions #digitalassets #cryptobeginners #cryptocurrency #crypto #blockchain #coingecko",
+        "quiz": [
+            {
+                "question": "What is tokenomics?",
+                "options": [
+                    "The study of different types of tokens",
+                    "The study of supply and demand characteristics of a cryptocurrency",
+                    "The evaluation of blockchain technology",
+                    "The analysis of digital assets on the market"
+                ]
+            },
+            {
+                "question": "What is a token in the context of cryptocurrency?",
+                "options": [
+                    "A physical representation of a digital asset",
+                    "A digital unit of a cryptocurrency used as a specific asset or for a particular use on the blockchain",
+                    "A form of government-issued currency",
+                    "A type of smart contract programmed on a blockchain"
+                ]
+            },
+            {
+                "question": "Why is tokenomics important when investing in cryptocurrency?",
+                "options": [
+                    "To predict the exact value of a cryptocurrency",
+                    "To understand how government-issued currencies work",
+                    "To grasp the factors affecting supply and demand of a cryptocurrency",
+                    "To determine the current market cap of a cryptocurrency"
+                ]
+            },
+            {
+                "question": "How can tokenomics provide guidance on the future value of an asset?",
+                "options": [
+                    "By analyzing the historical market trends",
+                    "By estimating the potential demand for the asset",
+                    "By predicting sudden market fluctuations",
+                    "By determining the popularity of the blockchain technology used"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "rYQgy8QDEBI",
+        "title": "How Cryptocurrency ACTUALLY works.",
+        "link": "https://www.youtube.com/watch?v=rYQgy8QDEBI",
+        "duration": 834,
+        "description": "Bitcoin, Dogecoin, Ethereum, NFT's, all explained in one simple guide!  Do consider subscribing if you enjoyed! \n\nIt would make my day if you could also follow me on:\n\ud83c\udf08 Instagram: https://goo.gl/OUqBBa\n\ud83d\udc26 Twitter: https://goo.gl/EFhwqL\n\ud83d\ude0a Facebook: https://goo.gl/Aluzl1\n\nAmazon Affiliate links:\nAmazon US: https://goo.gl/3yS2aP\nAmazon UK: https://goo.gl/gvrsGZ\n\nMy Filming Gear:\nhttps://bit.ly/35CuxwI\n\nMusic is from Epidemic sound:\nhttp://share.epidemicsound.com/pHDFT",
+        "quiz": [
+            {
+                "question": "What is tokenomics?",
+                "options": [
+                    "The study of physical tokens",
+                    "The study of supply and demand characteristics of a cryptocurrency",
+                    "The study of different types of blockchain technology",
+                    "The study of cryptocurrency regulation"
+                ]
+            },
+            {
+                "question": "What is a token?",
+                "options": [
+                    "A physical representation of a cryptocurrency",
+                    "A digital unit of a cryptocurrency used for specific purposes",
+                    "A code used to store cryptocurrency",
+                    "A program used to mine for cryptocurrency"
+                ]
+            },
+            {
+                "question": "What are the most common use cases for tokens?",
+                "options": [
+                    "Trading and investing",
+                    "Security, utility, and governance",
+                    "Mining and staking",
+                    "Peer-to-peer transactions"
+                ]
+            },
+            {
+                "question": "How are issuance schedules of cryptocurrencies and tokens determined?",
+                "options": [
+                    "By governments",
+                    "By individual miners",
+                    "Algoritimically created",
+                    "By banks"
+                ]
+            },
+            {
+                "question": "Why is tokenomics important when investing in cryptocurrency?",
+                "options": [
+                    "To understand the history of a cryptocurrency",
+                    "To determine the value of traditional currencies",
+                    "To predict future supply and demand factors",
+                    "To regulate the use of cryptocurrencies"
+                ]
+            },
+            {
+                "question": "What is one factor of vital importance to speculators and investors?",
+                "options": [
+                    "The color of the token",
+                    "How the digital currency will be used",
+                    "The size of the token",
+                    "The price of the token"
+                ]
+            },
+            {
+                "question": "What are some important questions to consider in tokenomics?",
+                "options": [
+                    "Where to buy tokens",
+                    "How many people use a token",
+                    "How many tokens currently exist and will exist in the future",
+                    "The political ideology of the token"
+                ]
+            },
+            {
+                "question": "How do lost or unusable coins impact tokenomics?",
+                "options": [
+                    "They have no impact",
+                    "They decrease the value of the cryptocurrency",
+                    "They increase the value of the cryptocurrency",
+                    "They make the cryptocurrency obsolete"
+                ]
+            },
+            {
+                "question": "How can tokenomics help understand the future value of an asset?",
+                "options": [
+                    "By predicting the weather",
+                    "By analyzing market trends",
+                    "By estimating how much an asset might be worth",
+                    "By relying on government regulations"
+                ]
+            },
+            {
+                "question": "In comparison to Bitcoin, what is a significant challenge for coins like Tron?",
+                "options": [
+                    "High popularity",
+                    "Low number of existing coins",
+                    "Having less potential uses",
+                    "Being decentralized"
+                ]
+            },
+            {
+                "question": "What is a key difference between Bitcoin Cash and Bitcoin?",
+                "options": [
+                    "Total supply",
+                    "Functionality",
+                    "Year of creation",
+                    "Mainstream adoption"
+                ]
+            },
+            {
+                "question": "What is one reason why Tron would need to become the most valuable business in history?",
+                "options": [
+                    "To increase its user base",
+                    "To secure its network",
+                    "To break a few thousand dollars per coin",
+                    "To offer more security features"
+                ]
+            },
+            {
+                "question": "What is the potential impact of lost or burned coins on the value of a cryptocurrency?",
+                "options": [
+                    "Negative impact",
+                    "Positive impact",
+                    "No impact",
+                    "Uncertain impact"
+                ]
+            },
+            {
+                "question": "What is the main purpose of tokenomics in the cryptocurrency market?",
+                "options": [
+                    "To control the value of traditional currencies",
+                    "To secure transactions on the blockchain",
+                    "To understand and predict supply and demand factors",
+                    "To regulate the creation of new cryptocurrencies"
+                ]
+            }
+        ]
+    }
+]

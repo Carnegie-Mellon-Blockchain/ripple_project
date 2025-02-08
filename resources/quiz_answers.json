@@ -1,0 +1,128 @@
+[
+    {
+        "id": "SSo_EIwHSd4",
+        "answers": [
+            "To timestamp digital documents to prevent backdating and tampering",
+            "Satoshi Nakamoto",
+            "Transaction details like sender, receiver, and coins amount",
+            "Block hash",
+            "Proof-of-work",
+            "10 minutes"
+        ]
+    },
+    {
+        "id": "3xGLc-zz9cA",
+        "answers": [
+            "To timestamp digital documents",
+            "Satoshi Nakamoto",
+            "Sender, receiver, and amount of coins",
+            "A fingerprint that identifies a block",
+            "Proof-of-work",
+            "By majority voting",
+            "Creation of smart contracts"
+        ]
+    },
+    {
+        "id": "ReRJzrCwsaw",
+        "answers": [
+            "To timestamp digital documents",
+            "Hashing mechanism",
+            "Slows down the creation of new blocks"
+        ]
+    },
+    {
+        "id": "17QRFlml4pA",
+        "answers": [
+            "1991",
+            "Satoshi Nakamoto",
+            "A chain of blocks that contains information",
+            "Immutability",
+            "Data, block hash, previous block hash",
+            "A fingerprint identifying a block and its contents",
+            "Creates a chain of blocks for security",
+            "All following blocks become invalid",
+            "Proof-of-work",
+            "About 10 minutes",
+            "Security",
+            "By being distributed",
+            "Gets a full copy of the blockchain",
+            "All nodes",
+            "All of the above",
+            "Smart contracts",
+            "Automatically exchange coins based on conditions"
+        ]
+    },
+    {
+        "id": "ll5c4pLMDdA",
+        "answers": [
+            "A digital unit of a cryptocurrency used for specific purposes on the blockchain",
+            "To understand the supply and demand factors that impact the value of a cryptocurrency",
+            "By making the issuance schedule difficult to alter, thus providing stability"
+        ]
+    },
+    {
+        "id": "SQyg9pyJ1Ac",
+        "answers": [
+            "The characteristics of the supply and demand of a cryptocurrency",
+            "A digital unit of a cryptocurrency that is either used as a specific asset or it represents a particular use on the blockchain",
+            "Security, utility, or governance tokens",
+            "Understanding the factors that will impact either supply or demand are of vital importance to both speculators and investors",
+            "If there is a clear link between the platform or service being built and the asset itself, there is a strong chance that a growing service will require purchases that increase usage and demand, thus increasing the price",
+            "For example, considering the total supply of coins or tokens, their creation schedule, ownership distribution, and potential uses can help in understanding how much an asset might be worth in the future"
+        ]
+    },
+    {
+        "id": "vTEjf7MYAWA",
+        "answers": [
+            "Supply and demand characteristics",
+            "Digital unit of a cryptocurrency",
+            "Security, utility, and governance",
+            "Involves significant effort",
+            "Stability and predictability",
+            "Understanding supply and demand impacts",
+            "It impacts usage and demand driving the price",
+            "Future value potential",
+            "Total supply"
+        ]
+    },
+    {
+        "id": "t1brCcgi174",
+        "answers": [
+            "A digital unit of a cryptocurrency used as a specific asset or for a particular use on the blockchain",
+            "Security, Utility, and Governance tokens",
+            "Tokenomics",
+            "To understand factors that impact supply and demand",
+            "The link between the platform or service being built and the asset itself",
+            "By understanding factors like total supply, distribution, and use cases of a token",
+            "Tron"
+        ]
+    },
+    {
+        "id": "kf28zqP_F2s",
+        "answers": [
+            "The study of supply and demand characteristics of a cryptocurrency",
+            "A digital unit of a cryptocurrency used as a specific asset or for a particular use on the blockchain",
+            "To grasp the factors affecting supply and demand of a cryptocurrency",
+            "By estimating the potential demand for the asset"
+        ]
+    },
+    {
+        "id": "rYQgy8QDEBI",
+        "answers": [
+            "The study of supply and demand characteristics of a cryptocurrency",
+            "A digital unit of a cryptocurrency used for specific purposes",
+            "Security, utility, and governance",
+            "Algoritimically created",
+            "To predict future supply and demand factors",
+            "How the digital currency will be used",
+            "How many tokens currently exist and will exist in the future",
+            "They decrease the value of the cryptocurrency",
+            "By estimating how much an asset might be worth",
+            "Having less potential uses",
+            "Total supply",
+            "To break a few thousand dollars per coin",
+            "Negative impact",
+            "To understand and predict supply and demand factors"
+        ]
+    }
+]
