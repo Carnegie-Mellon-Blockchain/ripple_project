@@ -1,0 +1,196 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.080 --> 00:00:06.920
+A crypto wallet is your key to the crypto space&nbsp;
+but do you know that they can be hot or cold?
+
+00:00:06.920 --> 00:00:12.000
+All wallets perform the same fundamental&nbsp;
+function - storing your private keys - but&nbsp;&nbsp;
+
+00:00:12.000 --> 00:00:15.800
+in different ways. With them,&nbsp;
+you can manage your funds,&nbsp;&nbsp;
+
+00:00:15.800 --> 00:00:19.280
+perform transactions, and&nbsp;
+interact with the blockchain.
+
+00:00:19.280 --> 00:00:23.680
+Wallets can be categorized&nbsp;
+broadly into hot and cold wallets.
+
+00:00:23.680 --> 00:00:28.880
+A hot wallet, sometimes referred to as&nbsp;
+a software wallet, is usually a computer&nbsp;&nbsp;
+
+00:00:28.880 --> 00:00:33.720
+program or mobile application on your&nbsp;
+device. What makes them ‘hot’ is that&nbsp;&nbsp;
+
+00:00:33.720 --> 00:00:38.880
+they generate and store your private keys&nbsp;
+and seed phrases in an online environment.
+
+00:00:38.880 --> 00:00:42.600
+They often come in the form of web-based&nbsp;
+wallets like browser extensions,&nbsp;&nbsp;
+
+00:00:42.600 --> 00:00:47.480
+or standalone apps that can be used&nbsp;
+on a desktop, laptop, or smartphone.
+
+00:00:47.480 --> 00:00:50.480
+In contrast, a cold wallet is simply a wallet&nbsp;&nbsp;
+
+00:00:50.480 --> 00:00:54.320
+whose private keys are not exposed&nbsp;
+to the internet. Additionally,&nbsp;&nbsp;
+
+00:00:54.320 --> 00:01:00.080
+beyond simple transfers, it should not be&nbsp;
+used to interact with any smart contracts.
+
+00:01:00.080 --> 00:01:05.720
+They can come in different forms, such as a paper&nbsp;
+wallet or a hardware wallet, though the latter is&nbsp;&nbsp;
+
+00:01:05.720 --> 00:01:11.280
+the most common. In hardware wallets, private&nbsp;
+keys are generated and stored locally only&nbsp;&nbsp;
+
+00:01:11.280 --> 00:01:17.000
+within the device, and are not exposed to the&nbsp;
+internet even when used to sign transactions.
+
+00:01:17.000 --> 00:01:21.520
+Note that while cold wallets are sometimes&nbsp;
+interchangeably used with the term “hardware&nbsp;&nbsp;
+
+00:01:21.520 --> 00:01:27.040
+wallet”, the two aren’t entirely the same.&nbsp;
+This is because hardware wallets can still&nbsp;&nbsp;
+
+00:01:27.040 --> 00:01:32.440
+be used to interact with dApps, making&nbsp;
+them susceptible to onchain threats.
+
+00:01:32.440 --> 00:01:35.440
+Let’s dive further into their pros and cons.
+
+00:01:35.440 --> 00:01:40.920
+Hot wallets make performing transactions&nbsp;
+and interacting with dApps on web3 a breeze.
+
+00:01:40.920 --> 00:01:42.240
+With an internet connection,&nbsp;&nbsp;
+
+00:01:42.240 --> 00:01:46.800
+users just need to log in to their wallet&nbsp;
+to begin interacting with applications.
+
+00:01:46.800 --> 00:01:50.400
+Beginners in crypto might find hot&nbsp;
+wallets to be a good starting point&nbsp;&nbsp;
+
+00:01:50.400 --> 00:01:55.440
+due to their simple user experience, but&nbsp;
+even experienced users enjoy hot wallets&nbsp;&nbsp;
+
+00:01:55.440 --> 00:01:59.840
+for day-to-day crypto transactions,&nbsp;
+especially when interacting with dApps.
+
+00:02:00.480 --> 00:02:04.360
+However, this convenience&nbsp;
+comes at the cost of security.
+
+00:02:04.360 --> 00:02:07.400
+Because hot wallets are always exposed online,&nbsp;&nbsp;
+
+00:02:07.400 --> 00:02:10.920
+your private information&nbsp;
+is more easily compromised.
+
+00:02:10.920 --> 00:02:16.240
+Malware on your device or software bugs&nbsp;
+could allow hackers to extract your seed&nbsp;&nbsp;
+
+00:02:16.240 --> 00:02:20.120
+phrase or private keys, jeopardizing your funds.
+
+00:02:20.120 --> 00:02:23.320
+Frequent interaction with dApps&nbsp;
+leaves you more vulnerable to&nbsp;&nbsp;
+
+00:02:23.320 --> 00:02:27.280
+malicious transactions that&nbsp;
+could drain your wallet.
+
+00:02:27.280 --> 00:02:30.200
+As for cold wallets, its primary benefit&nbsp;&nbsp;
+
+00:02:30.200 --> 00:02:34.120
+is the security features it&nbsp;
+offers for your crypto holdings.
+
+00:02:34.120 --> 00:02:38.200
+Remember, a cold wallet is ‘cold’&nbsp;
+because your private keys are never&nbsp;&nbsp;
+
+00:02:38.200 --> 00:02:43.320
+exposed to the internet in any way.&nbsp;
+They also do not interact with dApps.
+
+00:02:43.320 --> 00:02:48.760
+These two together protect your assets both&nbsp;
+from malware that can expose your private keys,&nbsp;&nbsp;
+
+00:02:48.760 --> 00:02:54.720
+or other on-chain threats like malicious smart&nbsp;
+contracts; as not even a hardware wallet can&nbsp;&nbsp;
+
+00:02:54.720 --> 00:02:59.840
+save your assets if you accidentally&nbsp;
+approve a malicious transaction.
+
+00:02:59.840 --> 00:03:05.400
+As for the downsides of cold wallets, the&nbsp;
+primary one is their inherent difficulty of use.
+
+00:03:05.400 --> 00:03:10.960
+Old school solutions like paper wallets are&nbsp;
+more suited for enthusiastic cypherpunks and&nbsp;&nbsp;
+
+00:03:10.960 --> 00:03:15.200
+long-term storage rather than&nbsp;
+the average day-to-day user.
+
+00:03:15.200 --> 00:03:19.600
+Cold hardware wallets are physical devices&nbsp;
+that need to be brought around with you,&nbsp;&nbsp;
+
+00:03:19.600 --> 00:03:22.240
+and also require an internet-enabled device to be&nbsp;&nbsp;
+
+00:03:22.240 --> 00:03:27.600
+used. That means you need to have both&nbsp;
+devices on hand to access your funds.
+
+00:03:27.600 --> 00:03:33.920
+This can prove as a challenge to those who prefer&nbsp;
+to execute transactions quickly and at any time.
+
+00:03:33.920 --> 00:03:36.720
+We hope you’ve enjoyed learning&nbsp;
+more about hot and cold wallets&nbsp;&nbsp;
+
+00:03:36.720 --> 00:03:39.120
+and how they work to store your private keys.
+
+00:03:39.120 --> 00:03:53.800
+If you’re a gamer looking to learn about&nbsp;
+crypto games, check out our video here.
+
