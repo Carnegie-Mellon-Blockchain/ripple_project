@@ -1,3 +1,5 @@
+![ClarityFi Logo](clarity_fi_logo.jpg)
+
 # ClarityFi
 
 On-chain financial literacy score to fight overcollaterization in on-chain lending.
