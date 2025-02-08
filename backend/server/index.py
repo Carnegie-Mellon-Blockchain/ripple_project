@@ -34,13 +34,17 @@ def userBalance(address):
     print(address)
 
     client = xrpl.clients.JsonRpcClient(config['testnet_url'])    
+    print(client)
 
     response = client.request(xrpl.models.requests.AccountLines(
         account=address,
         ledger_index="validated",
     ))
 
+    print(response)
+
     lines = response.result['lines']
+    print('lines: ', lines)
 
     if not lines:
         return 'no balance', 400
@@ -49,6 +53,9 @@ def userBalance(address):
 
     if not bals:
         return 'no balance', 400
+
+    print('bals: ', bals[0])
+    print('bal: ', bals[0]['balance'])
     
     return bals[0]['balance']
 
