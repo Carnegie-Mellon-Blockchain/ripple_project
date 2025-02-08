@@ -1,1 +1,0 @@
-Local React frontend goes here
