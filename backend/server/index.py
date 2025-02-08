@@ -48,19 +48,41 @@ def userBalance():
     
     return bals[0]['balance']
 
+def quizResult(user, quiz_id):
+    tries = 0
+
+    with open('quiz_records.txt') as file:
+        contents = file.read().strip()
+        if contents:
+            records = [line.split(':') for line in contents.split('\n')]
+            for (address, quiz, passed) in records:
+                if (address == user and quiz == str(quiz_id)):
+                    tries += 1
+                    if passed == 'pass':
+                        # solved
+                        return {
+                            'solved': True,
+                            'tries': tries
+                        }
+    return {
+        'solved': False,
+        'tries': tries
+    }
+
+@app.route('/api/quiz_tries', methods = ['GET'])
+def quizTries():
+    req = request.get_json()
+    return quizResult(req['address'], req['quiz'])
+
 @app.route('/api/submit_quiz', methods = ['POST'])
 def submitQuiz():
     req = request.get_json()
 
-    with open('quiz_records.txt') as file:
-        contents = file.read().strip()
+    quiz_result = quizResult(req['address'], req['quiz'])
 
-        if contents:
-            records = [line.split(':') for line in contents.split('\n')]
-            for (address, quiz) in records:
-                if (address == req['address'] and quiz == str(req['quiz'])):
-                    # solved
-                    return 'already solved', 400
+    if quiz_result['solved']:
+        return 'already solved', 400
+
 
     # check answers
     sol_file = open('solutions.json', 'r')
@@ -73,6 +95,8 @@ def submitQuiz():
 
     for i in range(len(sol)):
         if sol[i] != req['answers'][i]:
+            with open('quiz_records.txt', 'a+') as file:
+                file.write(f"{req['address']}:{req['quiz']}:fail\n")
             return 'wrong answers', 400
 
     # mint token
@@ -81,9 +105,7 @@ def submitQuiz():
 
     # save
     with open('quiz_records.txt', 'a+') as file:
-        record = f"{req['address']}:{req['quiz']}"
-        file.write(f"{record}\n")
-        file.close()
+        file.write(f"{req['address']}:{req['quiz']}:pass\n")
 
     return '', 200
 
@@ -99,5 +121,10 @@ Balance:
 curl  -X POST -H "Content-Type: application/json" -d \
   '{"address": "rp37MDwmN5BR5bDtt6r8L8NbKaZ3YLMEFQ"}' \
   http://localhost:8888/api/user_balance
-'''
 
+Tries:
+
+curl  -X GET -H "Content-Type: application/json" -d \
+  '{"address": "rp37MDwmN5BR5bDtt6r8L8NbKaZ3YLMEFQ", "quiz": '2'}' \
+  http://localhost:8888/api/quiz_tries
+'''
