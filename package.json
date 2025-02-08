@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@crossmarkio/sdk": "^0.4.0"
+  }
+}

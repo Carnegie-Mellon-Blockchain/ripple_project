@@ -1,4 +1,19 @@
 {
-	"1": ["a", "b", "c", "d"],
-	"2": ["b", "b", "d", "c"]
+	"SSo_EIwHSd4": [
+		"To timestamp digital documents",
+		 "Satoshi Nakamoto",
+		 "To identify a block and its contents",
+		 "The block becomes invalid",
+		 "Proof-of-work",
+		 "By creating consensus"
+	],
+	"3xGLc-zz9cA": [
+		"1991",
+		"Bitcoin",
+		"Immutability",
+		"A fingerprint",
+		"Proof-of-work",
+		"10 minutes",
+		"Distributed nature"
+	]
 }
