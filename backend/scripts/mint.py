@@ -8,7 +8,7 @@ from pprint import pprint
 COLD_ADDRESS = "rBrZLAm4G3WVDjkMmf83FTFLkAVq2r37XG" # Seq: 4660535
 COLD_SECRET = "sEd7yxXXXtWrExuYc8E9NJmjJYpiCvF"
 
-# User
+# Hot
 HOT_ADDRESS = "rBHL44Z6NdghWEVNrymbLBKajngSRtE1cE"
 HOT_SECRET = "sEdS8LTWDjwCbgeR4mgJPGG3MDRGcEi"
 
@@ -65,6 +65,7 @@ if False:
     print(response)
 
     # TODO: Ensure CTS is non-transferable
+    # https://xrpl.org/docs/tutorials/how-tos/use-tokens/enact-global-freeze
 
 if False:
     # Send token from cold wallet to hot wallet

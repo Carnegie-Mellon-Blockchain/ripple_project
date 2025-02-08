@@ -10,6 +10,9 @@ ADDRESS = "rBrZLAm4G3WVDjkMmf83FTFLkAVq2r37XG" # Seq: 4660535
 SECRET = "sEd7yxXXXtWrExuYc8E9NJmjJYpiCvF"
 
 
+
+# ---
+
 def get_account_info(accountId):
     """get_account_info"""
     client = xrpl.clients.JsonRpcClient(TESTNET_URL)
