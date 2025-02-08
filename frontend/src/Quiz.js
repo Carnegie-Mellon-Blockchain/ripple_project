@@ -1,7 +1,9 @@
 // src/Quiz.js
 import React, { useState } from 'react';
+import { useWallet } from "./context/WalletContext";
 
 function Quiz({ quizzes, videoId }) {
+	const { address } = useWallet();
   // State to store selected answers
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -23,7 +25,7 @@ function Quiz({ quizzes, videoId }) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          address: "user address",
+          address: address,
 		  quiz: videoId,
           answers: selectedAnswers, // Send selected answers
         }),

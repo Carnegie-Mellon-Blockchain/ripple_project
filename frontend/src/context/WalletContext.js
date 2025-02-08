@@ -1,9 +1,11 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useContext, useState } from "react";
 
-const WalletContext = createContext(undefined);
+// ✅ Create Wallet Context
+const WalletContext = createContext();
 
+// ✅ Provider Component to wrap the app
 export const WalletProvider = ({ children }) => {
-  const [address, setAddress] = useState('');
+  const [address, setAddress] = useState(null);
 
   return (
     <WalletContext.Provider value={{ address, setAddress }}>
@@ -12,10 +14,7 @@ export const WalletProvider = ({ children }) => {
   );
 };
 
+// ✅ Custom Hook to access Wallet Context (Only Declare Once!)
 export const useWallet = () => {
-  const context = useContext(WalletContext);
-  if (context === undefined) {
-    throw new Error('useWallet must be used within a WalletProvider');
-  }
-  return context;
+  return useContext(WalletContext);
 };

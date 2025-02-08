@@ -80,6 +80,7 @@ def quizTries():
 @app.route('/api/submit_quiz', methods = ['POST'])
 def submitQuiz():
     req = request.get_json()
+    print(req)
 
     quiz_result = quizResult(req['address'], req['quiz'])
 
