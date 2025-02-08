@@ -1,8 +1,11 @@
 from flask import Flask, jsonify, request
 import json
 import xrpl
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app, origins=["http://localhost:3000"]) 
 
 with open('config.json') as f:
     config = json.load(f)
@@ -66,13 +69,15 @@ def submitQuiz():
     sol_file = open('solutions.json', 'r')
     solutions = json.load(sol_file)
 
+
     try:
         sol = solutions[str(req['quiz'])]
     except:
         return 'solutions not found', 400
 
+
     for i in range(len(sol)):
-        if sol[i] != req['answers'][i]:
+        if sol[i] != req['answers'][str(i)]:
             return 'wrong answers', 400
 
     # mint token
@@ -99,5 +104,5 @@ Balance:
 curl  -X POST -H "Content-Type: application/json" -d \
   '{"address": "rp37MDwmN5BR5bDtt6r8L8NbKaZ3YLMEFQ"}' \
   http://localhost:8888/api/user_balance
-'''
 
+'''
