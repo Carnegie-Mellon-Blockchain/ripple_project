@@ -60,11 +60,10 @@ const WalletConnect = ({ onConnectionChange }) => {
 
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:8888/api/user_balance', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ address }),
-      });
+		const response = await fetch(`http://localhost:8888/api/user_balance/${address}`, {
+		  method: 'GET',
+		  headers: { 'Content-Type': 'application/json' },
+		});
 
       if (!response.ok) throw new Error('Failed to fetch balance');
 

@@ -28,14 +28,15 @@ def mintTokens(user_address, token_quantity):
 
     return response.status == 'success'
 
-@app.route('/api/user_balance', methods = ['GET'])
-def userBalance():
-    req = request.get_json()
+@app.route('/api/user_balance/<address>', methods = ['GET'])
+def userBalance(address):
+
+    print(address)
 
     client = xrpl.clients.JsonRpcClient(config['testnet_url'])    
 
     response = client.request(xrpl.models.requests.AccountLines(
-        account=req['address'],
+        account=address,
         ledger_index="validated",
     ))
 
@@ -98,6 +99,7 @@ def submitQuiz():
     except:
         return 'solutions not found', 400
 
+    print('ans?')
 
     for i in range(len(sol)):
         if sol[i] != req['answers'][str(i)]:
@@ -105,6 +107,7 @@ def submitQuiz():
                 file.write(f"{req['address']}:{req['quiz']}:fail\n")
             return 'wrong answers', 400
 
+    print('pass')
     # mint token
     if not mintTokens(req['address'], 20):
         return 'transfer failed', 400
