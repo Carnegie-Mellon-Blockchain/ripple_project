@@ -4,7 +4,7 @@
 
 XRP-Ledger-native financial literacy tracker platform to fight overcollaterization in on-chain lending.
 
-DECK: https://drive.google.com/file/d/1yr3P7daX3grBgok92O4_S_LlfqJ28Hzt/view?usp=sharing
+DECK: https://drive.google.com/file/d/17RBEAtwx1TF6WM4V9QyMgUh0kJqsinh7/view?usp=sharing
 
 DEMO VIDEO: https://drive.google.com/file/d/173O4NjkgDReARyaIpancviygt--ZkO9D/view?usp=sharing
 
